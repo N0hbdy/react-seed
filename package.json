@@ -1,0 +1,61 @@
+{
+  "name": "frontend-seed",
+  "description": "seed for creating React.js applications",
+  "version": "0.0.1",
+  "author": "Austen McRae <austen.mcrae@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "react-router": "^0.11.6",
+    "flux": "^2.0.1",
+    "react": "^0.12.2",
+    "superagent": "^0.21.0",
+    "immutable": "^3.4.1"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "css-loader": "^0.9.0",
+
+    "gulp": "^3.8.10",
+    "gulp-compass": "^2.0.3",
+    "gulp-cssfont64": "0.0.1",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-size": "^1.1.0",
+    "gulp-util": "^3.0.1",
+    "gulp-shell": "^0.2.11",
+    "gulp-jshint": "^1.9.0",
+
+    "map-stream": "0.0.5",
+    "highlight.js": "^8.4.0",
+    "jest-cli": "^0.2.1",
+    "jshint": "^2.5.11",
+    "jshint-loader": "^0.8.0",
+    "jshint-stylish": "^1.0.0",
+
+    "react-tools": "^0.12.2",
+    "react-hot-loader": "^1.0.0-alpha.3",
+    "react-retina-image": "^1.1.0",
+    "style-loader": "^0.8.2",
+
+    "touch": "0.0.3",
+    "underscore": "^1.7.0",
+
+    "webpack": "^1.4.14",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "jest": {
+    "rootDir": "src",
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "react"
+    ]
+  },
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build",
+    "test": "jshint && jest",
+    "jshint": "jshint ./src gulpfile.js",
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update"
+  }
+}
