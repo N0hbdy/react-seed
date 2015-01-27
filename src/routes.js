@@ -12,11 +12,11 @@ var React = require('react');
 var {Route, DefaultRoute} = require('react-router');
 
 // Require components for routing
-var LoginPage = require('./components/pages/LoginPage');
+var LoginPage = require('./components/LoginPage');
 // var PeoplePage = require('./components/pages/People');
 // var Person = require('./components/pages/Person');
-var Index = require('./components/pages/Index');
-var App = require('./components/pages/App');
+var Index = require('./components/Index');
+var App = require('./components/App');
 
 
 var routes = (
