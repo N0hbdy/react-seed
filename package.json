@@ -41,7 +41,7 @@
     "touch": "0.0.3",
     "underscore": "^1.7.0",
 
-    "webpack": "^1.4.14",
+    "webpack": "^1.6.0",
     "webpack-dev-server": "^1.7.0"
   },
   "jest": {
